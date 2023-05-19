@@ -315,6 +315,7 @@ input[type="radio"]{
     color: rgb(209, 199, 199);
 }
 
+/* to show blockwise */
 .row{
     display: flex;
     justify-content: space-between;
