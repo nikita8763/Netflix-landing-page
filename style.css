@@ -266,7 +266,7 @@ label::after{
     font-size: 34px;
     position: absolute;
     right: 20px;
-    transition: transform 0.5s;
+    /* transition: transform 0.5s; */
 }
 
 /* to remove the dot due to radio type list */
@@ -321,8 +321,8 @@ input[type="radio"]{
     justify-content: space-between;
 }
 .footer .col{
-    flex-basis: 25%;
-    flex-grow: 1;
+    /* flex-basis: 25%; */
+    /* flex-grow: 1; */
     margin-bottom: 20px;
 }
 
@@ -348,4 +348,98 @@ input[type="radio"]{
     font-weight: 500;
     line-height: 100px;
     font-size: 15px;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 90px;
+        height: 27px;
+        margin-left: 25px;
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav select{
+        padding: 4px 8px;
+    }
+    .content{
+        position: unset;
+        transform: none;
+        padding-top: 100px;
+        
+    }
+    .content h1{
+        font-size: 37px;
+        max-width:370px ;
+        padding-left:40px ;
+    }
+    .content h3,p{
+        font-size: 18px;
+        max-width: 370px;
+        padding-left: 40px;
+    }
+    .content .email{
+        padding-left: 40px;
+        line-height: 80px;
+    }
+    .tv{
+        padding: 40px 73px 80px;
+        margin-left: 20px;
+    }
+    .tv h2{
+        font-size: 25px;
+    }
+    .popcorn{
+        padding: 40px 73px 80px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .popcorn h2{
+        font-size: 25px;
+    }
+    .profile{
+        padding: 40px 73px 80px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .profile h2{
+        font-size: 25px;
+    }
+    .download{
+        padding: 40px 73px 80px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .download h2{
+        font-size: 25px;
+    }
+    .faq{
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    .faq h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .qst_content p{
+        font-size: 15px;
+    }
+    .questions li label{
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+    .faq p,.email{
+        padding-left: 10px;
+    }
+    .footer{
+        padding-left: 55px;
+        padding-top: 10px;
+    }
+    .row {
+        flex-direction: column;
+    }
 }
