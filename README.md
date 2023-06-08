@@ -1,1 +1,1 @@
-A Responsive Netflix landing page using HTML, CSS. 
+A Responsive Netflix landing page using HTML and CSS. 
